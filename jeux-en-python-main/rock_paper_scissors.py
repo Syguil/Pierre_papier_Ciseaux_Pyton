@@ -3,6 +3,7 @@ from getpass import getpass
 from time import time
 import os
 
+
 def get_player_choice(self):
         """ Obtient et retourne le choix du joueur. """
 
