@@ -1,0 +1,15 @@
+services:
+  my-app:
+    container_name: my-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+
+    
