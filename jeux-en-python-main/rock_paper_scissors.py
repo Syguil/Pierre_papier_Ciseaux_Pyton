@@ -2,7 +2,6 @@ import random
 from getpass import getpass
 from time import time
 import os
-#https://github.com/Syguil/Pierre_papier_Ciseaux_Pyton
 
 def get_player_choice(self):
         """ Obtient et retourne le choix du joueur. """
